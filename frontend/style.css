@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7fb;
+  margin: 0;
+}
+
+header {
+  background-color: #5f4bdb;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.pdf-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.pdf-card {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+button {
+  background-color: #5f4bdb;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #4b38c5;
+}
